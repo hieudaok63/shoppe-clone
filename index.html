@@ -1,0 +1,1266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shoppe</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/grid.css">
+    <link rel="stylesheet" href="./assets/css/reponsive.css">
+    <link rel="stylesheet" href="./assets/fonts/fontawesome-free-5.15.3-web/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="app">
+        <header class="header">
+            <div class="grid wide">
+                <nav class="navbar hide-on-mobile-tablet">
+                    <ul class="navbar__list">
+                        <li class="navbar__item navbar__item--separate">Kênh Người Bán</li>
+                        <li class="navbar__item navbar__item--qr navbar__item--separate">
+                            Tải ứng dụng
+                            <div class="navbar__qr">
+                                <img src="./assets/img/qr/qr.png" alt="QR" class="navbar__qr-img">
+                                <div class="navbar__qr-apps">
+                                    <a href="" class="navbar__qr-link">
+                                        <img src="./assets/img/qr/google play.png" alt="Google play" class="navbar__qr-dowload-img">
+                                    </a>
+
+                                    <a href="" class="navbar__qr-link">
+                                        <img src="./assets/img/qr/app store.png" alt="App store" class="navbar__qr-dowload-img">
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="navbar__item">
+                            <span class="navbar__item--no-pointer">
+                                Kết nối
+                            </span>
+                            <a href="" class="navbar__icon-link">
+                                <i class="navbar-icon fab fa-facebook"></i>
+                            </a>
+
+                            <a href="" class="navbar__icon-link">
+                                <i class="navbar-icon fab fa-instagram-square"></i>
+                            </a>
+                        </li>
+                    </ul>
+    
+                    <ul class="navbar__list">
+                        <li class="navbar__item navbar__item-has-notify">
+                            <a href="" class="navbar__item-link">
+                                <i class="navbar-icon far fa-bell"></i>
+                                Thông Báo
+                            </a>
+                            <!-- notify -->
+                            <div class="navbar__notify">
+                                <header class="navbar__notify-header">
+                                    <h3>Thông Báo Mới Nhận</h3>
+                                </header>
+
+                                <ul class="navbar__notify-list">
+                                    <li class="navbar__notify-item navbar__notify-item--read">
+                                        <a href="" class="navbar__notify-link">
+                                            <img src="./assets/img/notification/1.PNG" alt="" class="navbar__notify-img">
+                                            <div class="navbar__notify-info">
+                                                <span class="navbar__notify-name">Bí kíp rinh Xu miễn phí!</span>
+                                                <span class="navbar__notify-desc">
+                                                    <i class="navbar__notify-desc-icon far fa-sad-cry"></i>
+                                                    Click vào đây - Có ngay xu thưởng
+                                                    <i class="navbar__notify-desc-icon far fa-sad-cry"></i>
+                                                </span>
+                                            </div>
+                                        </a>
+                                    </li>
+
+                                    <li class="navbar__notify-item">
+                                        <a href="" class="navbar__notify-link">
+                                            <img src="./assets/img/notification/2.PNG" alt="" class="navbar__notify-img navbar__notify-img--two">
+                                            <div class="navbar__notify-info">
+                                                <span class="navbar__notify-name">Shoppe mách bạn</span>
+                                                <span class="navbar__notify-desc">
+                                                    daotrunghieu2010 ơi, Sản phẩm bạn thích đang giảm giá SỐC Sắm ngay!
+                                                    <img src="./assets/img/notification/6.PNG" alt="" class="navbar__notify-desc-img">
+                                                </span>
+                                            </div>
+                                        </a>
+                                    </li>
+
+                                    <li class="navbar__notify-item navbar__notify-item--read">
+                                        <a href="" class="navbar__notify-link">
+                                            <img src="./assets/img/notification/3.PNG" alt="" class="navbar__notify-img">
+                                            <div class="navbar__notify-info">
+                                                <span class="navbar__notify-name">Senka & Tsubaki: x2 cơ hội xài Voucher</span>
+                                                <span class="navbar__notify-desc">
+                                                    <i class="navbar__notify-desc-heart far fa-grin-hearts"></i>
+                                                    Voucher đến 90k từ Shoppe
+                                                    <i class="navbar__notify-desc-heart far fa-grin-hearts"></i>
+                                                    Voucher đến 30k từ thương hiệu sữa rửa mặt Senka giảm đến 30% 
+                                                    <i class="far fa-hourglass"></i>
+                                                </span>
+                                            </div>
+                                        </a>
+                                    </li>
+
+                                    <li class="navbar__notify-item navbar__notify-item--read">
+                                        <a href="" class="navbar__notify-link">
+                                            <img src="./assets/img/notification/5.PNG" alt="" class="navbar__notify-img">
+                                            <div class="navbar__notify-info">
+                                                <span class="navbar__notify-name">Mặc đẹp giá rẻ - Chỉ từ 9k</span>
+                                                <span class="navbar__notify-desc">
+                                                    <i class="navbar__notify-desc-heart far fa-grin-hearts"></i>
+                                                    Đơn 99k: Giảm 15k
+                                                    <i class="navbar__notify-desc-heart far fa-grin-hearts"></i>
+                                                    Đơn 150k: Tặng Voucher Shoppe Mall
+                                                    <i class="navbar__notify-desc-icon far fa-sad-cry"></i>
+                                                    Mặc đẹp giá hời 
+                                                    <i class="far fa-hourglass"></i>
+                                                    Mua ngay đừng đợi!
+                                                </span>
+                                            </div>
+                                        </a>
+                                    </li>
+                                </ul>
+                                <footer class="navbar__notify-footer">
+                                    <a href="" class="navbar__notify-footer-btn">
+                                        Xem tất cả
+                                    </a>
+                                </footer>
+                            </div>
+                        </li>
+                        <li class="navbar__item">
+                            <a href="" class="navbar__item-link">
+                                <i class="navbar-icon far fa-question-circle"></i>
+                                Hỗ Trợ
+                            </a>
+                        </li>
+                        <!-- <li class="navbar__item navbar__item--strong navbar__item--separate2">Đăng Ký</li>
+                        <li class="navbar__item navbar__item--strong">Đăng Nhập</li> -->
+
+                        <li class="navbar__item navbar__item-user">
+                            <img src="./assets/img/avt.jfif" alt="avt" class="navbar__item-user-avt">
+                            <span class="navbar__item-user-name">daotrunghieu2010</span>
+                            <ul class="navbar__item-user-list">
+                                <li class="navbar__item-user-acount">
+                                    <span>Tài Khoản Của Tôi</span>
+                                </li>
+                                <li class="navbar__item-user-acount">
+                                    <span>Đơn Mua</span>
+                                </li>
+                                <li class="navbar__item-user-acount">
+                                    <span>Đăng Xuất</span>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+
+                <!-- Header with search -->
+                <div class="header-with-search">
+                    <label for="mobile-search-checkbox" class="header__mobile-search hide-on-tablet">
+                        <i class="header__mobile-search-icon fas fa-search"></i>
+                    </label>
+
+                    <div class="header__logo hide-on-mobile-tablet">
+                        <a href="/">
+                            <img src="./assets/img/logo/logo.PNG" alt="" class="header__logo-img">
+                        </a>
+                    </div>
+
+                    <div class="header__logo1">
+                        <a href="/">
+                            <img src="./assets/img/logo/logo1.PNG" alt="" class="header__logo1-img">
+                        </a>
+                    </div>
+
+                    <input type="checkbox" hidden id="mobile-search-checkbox" class="header__search-checkbox">
+
+                    <div class="header__search">
+                        <div class="header__search-input-wrap">
+                            <input type="text" class="header__search-input" placeholder="Tìm trong Shop này">
+
+                            <div class="header__search-history">
+                                <h3 class="header__search-history-heading">
+                                    Lịch sử Tìm kiếm
+                                </h3>
+
+                                <ul class="header__search-history-list">
+                                    <li class="header__search-history-item">
+                                        <a>Loa Bluethoot</a>
+                                    </li>
+
+                                    <li class="header__search-history-item">
+                                        <a>Màn hình LG</a>
+                                    </li>
+                                </ul>
+
+                            </div>
+                        </div>
+                        <div class="header__search-select">
+                            <span class="header__search-select-lable">Trong Shop này</span>
+                            <i class="header__search-select-icon fas fa-angle-down"></i>
+
+                            <ul class="header__search-option">
+                                <li class="header__search-option-item header__search-option-item--active">
+                                    <span>Trong Shop này</span>
+                                    <i class="fas fa-check"></i>
+                                </li>
+
+                                <li class="header__search-option-item">
+                                    <span>Tại Shoppe Mall</span>
+                                    <i class="fas fa-check"></i>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <button class="header__search-btn">
+                            <i class="header__search-btn-icon fas fa-search"></i>
+                        </button>
+                    </div>
+                    <!-- Cart -->
+                    <div class="header__cart">
+                        <div class="header__cart-wrap">
+                            <i class="header__cart-icon fas fa-shopping-cart"></i>
+                            <span class="header__cart-notice">4</span>
+
+                            <div class="header__cart-list">
+                                <!-- No cart:  header__cart-list--no-cart -->
+                                <img src="./assets/img/cart/no cart.png" alt="" class="header__cart-no-cart-img">
+                                <span class="header__cart-list-text">Chưa Có Sản Phẩm</span>
+
+                                <!-- has cart -->
+                                <h4 class="header__cart-heading">Sản phẩm đã thêm</h4>
+                                <ul class="header__cart-list-item">
+                                    <li class="header__cart-item">
+                                        <img src="./assets/img/has cart/sp1.png" alt="" class="header__cart-item-img">
+                                        <div class="header__cart-info">
+                                            <div class="header__cart-buy-heading">
+                                                <div class="header__cart-name">
+                                                    Màn Hình LED LG 27MK600M-B...
+                                                </div>
+
+                                                <div class="header__cart-big">
+                                                    <span class="header__cart-price">4.290.000đ</span>
+                                                    <span class="header__cart-multiply">x</span>
+                                                    <span class="header__cart-number">1</span>
+                                                </div>
+                                            </div>
+
+                                            <div class="header__cart-child">
+                                                <span class="header__cart-classify">Phân loại hàng: Bạc</span>
+                                                <span class="header__cart-delete">Xóa</span>
+                                                <i class="header__cart-delete-item show-on-mobile-tablet ">
+                                                    <i class="far fa-trash-alt"></i>
+                                                </i>
+                                            </div>
+                                        </div>
+                                    </li>
+
+                                    <li class="header__cart-item">
+                                        <img src="./assets/img/has cart/sp2.png" alt="" class="header__cart-item-img">
+                                        <div class="header__cart-info">
+                                            <div class="header__cart-buy-heading">
+                                                <div class="header__cart-name">
+                                                    [CE Gift] Loa Bluetooth LG XBO...
+                                                </div>
+
+                                                <div class="header__cart-big">
+                                                    <span class="header__cart-price">520.000đ</span>
+                                                    <span class="header__cart-multiply">x</span>
+                                                    <span class="header__cart-number">4</span>
+                                                </div>
+                                            </div>
+
+                                            <div class="header__cart-child">
+                                                <span class="header__cart-classify">Phân loại hàng: Bạc</span>
+                                                <span class="header__cart-delete">Xóa</span>
+                                                <i class="header__cart-delete-item show-on-mobile-tablet">
+                                                    <i class="far fa-trash-alt"></i>
+                                                </i>
+                                            </div>
+                                        </div>
+                                    </li>
+
+                                    <li class="header__cart-item">
+                                        <img src="./assets/img/has cart/sp3.png" alt="" class="header__cart-item-img">
+                                        <div class="header__cart-info">
+                                            <div class="header__cart-buy-heading">
+                                                <div class="header__cart-name">
+                                                    Smart UHD Tivi LG 43 inch 4K...
+                                                </div>
+
+                                                <div class="header__cart-big">
+                                                    <span class="header__cart-price">14.690.000đ</span>
+                                                    <span class="header__cart-multiply">x</span>
+                                                    <span class="header__cart-number">1</span>
+                                                </div>
+                                            </div>
+
+                                            <div class="header__cart-child">
+                                                <span class="header__cart-classify">Phân loại hàng: Vàng</span>
+                                                <span class="header__cart-delete">Xóa</span>
+                                                <i class="header__cart-delete-item show-on-mobile-tablet">
+                                                    <i class="far fa-trash-alt"></i>
+                                                </i>
+                                            </div>
+                                        </div>
+                                    </li>
+
+                                    <li class="header__cart-item">
+                                        <img src="./assets/img/has cart/sp4.png" alt="" class="header__cart-item-img">
+                                        <div class="header__cart-info">
+                                            <div class="header__cart-buy-heading">
+                                                <div class="header__cart-name">
+                                                    [Mã ELLGJULY giảm 5% 500K] LG...
+                                                </div>
+
+                                                <div class="header__cart-big">
+                                                    <span class="header__cart-price">1.290.000đ</span>
+                                                    <span class="header__cart-multiply">x</span>
+                                                    <span class="header__cart-number">2</span>
+                                                </div>
+                                            </div>
+
+                                            <div class="header__cart-child">
+                                                <span class="header__cart-classify">Phân loại hàng: Đồng</span>
+                                                <span class="header__cart-delete">Xóa</span>
+                                                <i class="header__cart-delete-item show-on-mobile-tablet">
+                                                    <i class="far fa-trash-alt"></i>
+                                                </i>
+                                            </div>
+                                        </div>
+                                    </li>
+
+                                </ul>
+                                
+                                <button class="header__cart-view-cart btn btn--red">Xem Giỏ Hàng</button>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <ul class="header__sort-bar">
+                <li class="header__sort-item">
+                    <a href="" class="header__sort-link">Liên quan</a>
+                </li>
+                <li class="header__sort-item">
+                    <a href="" class="header__sort-link header__sort-link--active">Mới nhất</a>
+                </li>
+                <li class="header__sort-item">
+                    <a href="" class="header__sort-link">Bán chạy</a>
+                </li>
+                <li class="header__sort-item">
+                    <a href="" class="header__sort-link">Giá</a>
+                </li>
+            </ul>
+        </header>
+
+        <div class="app__container">
+            <div class="grid wide">
+                
+                <span class="category-back hide-on-mobile-tablet"> 
+                    <i class="category-back-icon fas fa-chevron-left"></i>
+                    TRỞ LẠI TRANG CỦA SHOP
+                </span>
+                <div class="row sm-gutter app__content">
+                    <div class="col l-2 m-0 c-0">
+                        <nav class="category">
+                            <img src="./assets/img/logo/logo-shop-LG.PNG" alt="" class="category-logo-shop">
+
+                            <h3 class="category__heading">DANH MỤC SHOP</h3>
+            
+                            <ul class="category-list">
+                                <li class="category-item category-item--active">
+                                    <a href="" class="category-item__link">Sản Phẩm</a>
+                                </li>
+            
+                                <li class="category-item">
+                                    <a href="" class="category-item__link">Gia Dụng LG</a>
+                                </li>
+            
+                                <li class="category-item">
+                                    <a href="" class="category-item__link">Tivi LG</a>
+                                </li>
+            
+                                <li class="category-item">
+                                    <a href="" class="category-item__link">Tivi Model 2021</a>
+                                </li>
+            
+                                <li class="category-item">
+                                    <a href="" class="category-item__link">Loa Di Động bluetooth</a>
+                                </li>
+            
+                                <li class="category-item">
+                                    <a href="" class="category-item__link">Tai nghe True - Wireless</a>
+                                </li>
+            
+                                <li class="category-item">
+                                    <a href="" class="category-item__link">Tủ Lạnh LG</a>
+                                </li>
+            
+                                <li class="category-item">
+                                    <a href="" class="category-item__link">Máy Giặt LG</a>
+                                </li>
+
+                                <li class="category-item">
+                                    <a href="" class="category-item__link">Tivi - 49 inch và 55 inch</a>
+                                </li>
+
+                                <li class="category-item">
+                                    <a href="" class="category-item__link">SoundBar LG</a>
+                                </li>
+
+                                <li class="category-item">
+                                    <a href="" class="category-item__link">Tivi - Model 2020</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+    
+                    <div class="col l-10 m-12 c-12">
+                        <div class="home-filter hide-on-mobile-tablet">
+                            <span class="home-filter__lable">Sắp xếp theo</span>
+                            <button class="home-filter__btn btn btn--red">Phổ Biến</button>
+                            <button class="home-filter__btn btn">Mới Nhất</button>
+                            <button class="home-filter__btn btn">Bán Chạy</button>
+
+                            <div class="select-input">
+                                <span class="select-input-label">Giá</span>
+                                <i class="select-input-icon fas fa-angle-down"></i>
+                                <!--  -->
+                                <ul class="select-input__list">
+                                    <li class="select-input__item">
+                                        <a href="" class="select-input__link">Giá: Thấp đến Cao</a>
+                                    </li>
+
+                                    <li class="select-input__item">
+                                        <a href="" class="select-input__link">Giá: Cao đến Thấp</a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="home-filter__page">
+                                <span class="home-filter__page-num">
+                                    <span class="home-filter__page-curent">1</span>
+                                    /2
+                                </span>
+
+                                <div class="home-filter__page-control">
+                                    <a href="" class="home-filter__page-btn home-filter__page-btn--disabled">
+                                        <i class="home-filter__page-icon fas fa-angle-left"></i>
+                                    </a>
+
+                                    <a href="" class="home-filter__page-btn">
+                                        <i class="home-filter__page-icon fas fa-angle-right"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <nav class="mobile-category">
+                            <ul class="mobile-category__list">
+                                <li class="mobile-category__item">
+                                    <a href="" class="mobile-category__link">Gia Dụng LG</a>
+                                </li>
+                                <li class="mobile-category__item">
+                                    <a href="" class="mobile-category__link">Tivi LG</a>
+                                </li>
+                                <li class="mobile-category__item">
+                                    <a href="" class="mobile-category__link">Tivi Model 2021</a>
+                                </li>
+                                <li class="mobile-category__item">
+                                    <a href="" class="mobile-category__link">Loa Di Động bluetooth</a>
+                                </li>
+                                <li class="mobile-category__item">
+                                    <a href="" class="mobile-category__link">Tai nghe True - Wireless</a>
+                                </li>
+                                <li class="mobile-category__item">
+                                    <a href="" class="mobile-category__link">Tủ Lạnh LG</a>
+                                </li>
+                                <li class="mobile-category__item">
+                                    <a href="" class="mobile-category__link">Máy Giặt LG</a>
+                                </li>
+                                <li class="mobile-category__item">
+                                    <a href="" class="mobile-category__link">Tivi - 49 inch và 55 inch</a>
+                                </li>
+                                <li class="mobile-category__item">
+                                    <a href="" class="mobile-category__link">SoundBar LG</a>
+                                </li>
+                                <li class="mobile-category__item">
+                                    <a href="" class="mobile-category__link">Tivi - Model 2020</a>
+                                </li>
+                                
+                            </ul>
+                        </nav>
+
+                        <div class="home-product">
+                            <div class="row sm-gutter">
+                                <!-- Product-item -->
+                                <div class="col l-2-4 m-4 c-6 ">
+                                    <a href="" class="home-product-item">
+                                        <div class="home-product-item__img" style="background-image: url(https://cf.shopee.vn/file/b0eee7f0c51d92ef4c2324dc086e4699_tn);"></div>
+                                        <img src="./assets/img/logo/sale.PNG" alt="" class="home-product-item__img-sale">
+                                        <h4 class="home-product-item__name">[Mã ELLGJULY giảm 5% đơn 500K] Loa Bluetooth di động LG XBOOMGo PN1 - Hàng chính hãng</h4>
+                                        <div class="home-product-item__price">
+                                            <span class="home-product-item__price-old">690.000đ</span>
+                                            <span class="home-product-item__price-current">150.000đ</span>
+                                        </div>
+                                        <div class="home-product-item__action">
+                                            <span class="home-product-item__like home-product-item__like--liked">
+                                                <i class="home-product-item__like-icon-empty far fa-heart"></i>
+                                                <i class="home-product-item__like-icon-fill fas fa-heart"></i>
+                                            </span>
+
+                                            <div class="home-product-item__rating">
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                            </div>
+
+                                            <span class="home-product-item__sold">Đã bán 17,6k</span>
+                                        </div>
+
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item__origin-name">
+                                                TP. Hồ Chí Minh
+                                            </span>
+                                        </div>
+
+                                        <div class="home-product-item__favourite">
+                                           <p>XỬ LÝ ĐƠN HÀNG </p>
+                                            <span>BỞI SHOPPEE</span>
+                                        </div>
+
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item__sale-off-percent">79%</span>
+                                            <span class="home-product-item__sale-off-label">GIẢM</span>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="col l-2-4 m-4 c-6">
+                                    <a href="" class="home-product-item">
+                                        <div class="home-product-item__img" style="background-image: url(https://cf.shopee.vn/file/ab1e7e03f0c442729df6b8cdd314f4e4_tn);"></div>
+                                        <img src="./assets/img/logo/sale.PNG" alt="" class="home-product-item__img-sale">
+                                        <h4 class="home-product-item__name">[Mã ELLGJULY giảm 5% đơn 500K] Loa Bluetooth Di Động LG Xboomgo PL2 - Hàng Chính Hãng - Màu Xanh Đen</h4>
+                                        <div class="home-product-item__price">
+                                            <span class="home-product-item__price-old">1.290.000đ</span>
+                                            <span class="home-product-item__price-current">250.000đ</span>
+                                        </div>
+                                        <div class="home-product-item__action">
+                                            <span class="home-product-item__like home-product-item__like--liked">
+                                                <i class="home-product-item__like-icon-empty far fa-heart"></i>
+                                                <i class="home-product-item__like-icon-fill fas fa-heart"></i>
+                                            </span>
+
+                                            <div class="home-product-item__rating">
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                            </div>
+
+                                            <span class="home-product-item__sold">Đã bán 4,4k</span>
+                                        </div>
+
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item__origin-name">
+                                                TP. Hồ Chí Minh
+                                            </span>
+                                        </div>
+
+                                        <div class="home-product-item__favourite">
+                                           <p>XỬ LÝ ĐƠN HÀNG </p>
+                                            <span>BỞI SHOPPEE</span>
+                                        </div>
+
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item__sale-off-percent">84%</span>
+                                            <span class="home-product-item__sale-off-label">GIẢM</span>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <!-- sp3 -->
+                                <div class="col l-2-4 m-4 c-6">
+                                    <a href="" class="home-product-item">
+                                        <div class="home-product-item__img" style="background-image: url(https://cf.shopee.vn/file/1778b9345d4cf6886b28e5e9130cdcbe_tn);"></div>
+                                        <img src="./assets/img/logo/sale.PNG" alt="" class="home-product-item__img-sale">
+                                        <h4 class="home-product-item__name">Smart UHD Tivi LG 43 inch 4K 43UN7000PTA - Model 2020 - Miễn phí lắp đặt</h4>
+                                        <div class="home-product-item__price">
+                                            <span class="home-product-item__price-old">9.300.000đ</span>
+                                            <span class="home-product-item__price-current">8.200.000đ</span>
+                                        </div>
+                                        <div class="home-product-item__action">
+                                            <span class="home-product-item__like home-product-item__like--liked">
+                                                <i class="home-product-item__like-icon-empty far fa-heart"></i>
+                                                <i class="home-product-item__like-icon-fill fas fa-heart"></i>
+                                            </span>
+
+                                            <div class="home-product-item__rating">
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </div>
+
+                                            <span class="home-product-item__sold">Đã bán 75</span>
+                                        </div>
+
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item__origin-name">
+                                                TP. Hồ Chí Minh
+                                            </span>
+                                        </div>
+
+                                        <div class="home-product-item__favourite">
+                                           <p>XỬ LÝ ĐƠN HÀNG </p>
+                                            <span>BỞI SHOPPEE</span>
+                                        </div>
+
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item__sale-off-percent">11%</span>
+                                            <span class="home-product-item__sale-off-label">GIẢM</span>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="col l-2-4 m-4 c-6">
+                                    <a href="" class="home-product-item">
+                                        <div class="home-product-item__img" style="background-image: url(https://cf.shopee.vn/file/1fe8fe14160e60482f12fa3aff50519f_tn);"></div>
+                                        <img src="./assets/img/logo/sale.PNG" alt="" class="home-product-item__img-sale">
+                                        <h4 class="home-product-item__name">Màn Hình LG 24MK600M-B 24" FullHD 5ms 75Hz IPS Radeon FreeSync - Hàng Chính Hãng</h4>
+                                        <div class="home-product-item__price">
+                                            <span class="home-product-item__price-old">3.900.000đ</span>
+                                            <span class="home-product-item__price-current">3.550.000đ</span>
+                                        </div>
+                                        <div class="home-product-item__action">
+                                            <span class="home-product-item__like home-product-item__like--liked">
+                                                <i class="home-product-item__like-icon-empty far fa-heart"></i>
+                                                <i class="home-product-item__like-icon-fill fas fa-heart"></i>
+                                            </span>
+
+                                            <div class="home-product-item__rating">
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class=" fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </div>
+
+                                            <span class="home-product-item__sold">Đã bán 536</span>
+                                        </div>
+
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item__origin-name">
+                                                TP. Hồ Chí Minh
+                                            </span>
+                                        </div>
+
+                                        <div class="home-product-item__favourite">
+                                           <p>XỬ LÝ ĐƠN HÀNG </p>
+                                            <span>BỞI SHOPPEE</span>
+                                        </div>
+
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item__sale-off-percent">8%</span>
+                                            <span class="home-product-item__sale-off-label">GIẢM</span>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="col l-2-4 m-4 c-6">
+                                    <a href="" class="home-product-item">
+                                        <div class="home-product-item__img" style="background-image: url(https://cf.shopee.vn/file/7a2874d7d52e65631c4d0645b639d420_tn);"></div>
+                                        <img src="./assets/img/logo/sale.PNG" alt="" class="home-product-item__img-sale">
+                                        <h4 class="home-product-item__name">[Mã ELLGJULY giảm 5% đơn 500K] Loa Bluetooth Di Động LG Xboom Go PL5 - Hàng Chính Hãng - Màu Xanh Đen</h4>
+                                        <div class="home-product-item__price">
+                                            <span class="home-product-item__price-old">3.590.000đ</span>
+                                            <span class="home-product-item__price-current">1.800.000đ</span>
+                                        </div>
+                                        <div class="home-product-item__action">
+                                            <span class="home-product-item__like home-product-item__like--liked">
+                                                <i class="home-product-item__like-icon-empty far fa-heart"></i>
+                                                <i class="home-product-item__like-icon-fill fas fa-heart"></i>
+                                            </span>
+
+                                            <div class="home-product-item__rating">
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </div>
+
+                                            <span class="home-product-item__sold">Đã bán 1,1k</span>
+                                        </div>
+
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item__origin-name">
+                                                TP. Hồ Chí Minh
+                                            </span>
+                                        </div>
+
+                                        <div class="home-product-item__favourite">
+                                           <p>XỬ LÝ ĐƠN HÀNG </p>
+                                            <span>BỞI SHOPPEE</span>
+                                        </div>
+
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item__sale-off-percent">50%</span>
+                                            <span class="home-product-item__sale-off-label">GIẢM</span>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="col l-2-4 m-4 c-6">
+                                    <a href="" class="home-product-item">
+                                        <div class="home-product-item__img" style="background-image: url(https://cf.shopee.vn/file/038c69ba227c0fc59f611efeb1439d8b_tn);"></div>
+                                        <img src="./assets/img/logo/sale.PNG" alt="" class="home-product-item__img-sale">
+                                        <h4 class="home-product-item__name">Màn Hình LG 24MP60G-B 23.8'' Full HD IPS AMD FreeSync™ - Hàng Chính Hãng</h4>
+                                        <div class="home-product-item__price">
+                                            <span class="home-product-item__price-old">3.690.000đ</span>
+                                            <span class="home-product-item__price-current">3.350.000đ</span>
+                                        </div>
+                                        <div class="home-product-item__action">
+                                            <span class="home-product-item__like home-product-item__like--liked">
+                                                <i class="home-product-item__like-icon-empty far fa-heart"></i>
+                                                <i class="home-product-item__like-icon-fill fas fa-heart"></i>
+                                            </span>
+
+                                            <div class="home-product-item__rating">
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </div>
+
+                                            <span class="home-product-item__sold">Đã bán 54</span>
+                                        </div>
+
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item__origin-name">
+                                                TP. Hồ Chí Minh
+                                            </span>
+                                        </div>
+
+                                        <div class="home-product-item__favourite">
+                                           <p>XỬ LÝ ĐƠN HÀNG </p>
+                                            <span>BỞI SHOPPEE</span>
+                                        </div>
+
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item__sale-off-percent">1%</span>
+                                            <span class="home-product-item__sale-off-label">GIẢM</span>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="col l-2-4 m-4 c-6">
+                                    <a href="" class="home-product-item">
+                                        <div class="home-product-item__img" style="background-image: url(https://cf.shopee.vn/file/22e813de566bb5dfacd6bb73ab2e28f5_tn);"></div>
+                                        <img src="./assets/img/logo/sale.PNG" alt="" class="home-product-item__img-sale">
+                                        <h4 class="home-product-item__name">[Mã ELLGJULY giảm 5% đơn 500K] Loa Bluetooth Di Động LG Xboomgo PL5W - Hàng Chính Hãng - Màu Trắng</h4>
+                                        <div class="home-product-item__price">
+                                            <span class="home-product-item__price-old">3.590.000đ</span>
+                                            <span class="home-product-item__price-current">1.800.000đ</span>
+                                        </div>
+                                        <div class="home-product-item__action">
+                                            <span class="home-product-item__like home-product-item__like--liked">
+                                                <i class="home-product-item__like-icon-empty far fa-heart"></i>
+                                                <i class="home-product-item__like-icon-fill fas fa-heart"></i>
+                                            </span>
+
+                                            <div class="home-product-item__rating">
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                            </div>
+
+                                            <span class="home-product-item__sold">Đã bán 513</span>
+                                        </div>
+
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item__origin-name">
+                                                TP. Hồ Chí Minh
+                                            </span>
+                                        </div>
+
+                                        <div class="home-product-item__favourite">
+                                           <p>XỬ LÝ ĐƠN HÀNG </p>
+                                            <span>BỞI SHOPPEE</span>
+                                        </div>
+
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item__sale-off-percent">50%</span>
+                                            <span class="home-product-item__sale-off-label">GIẢM</span>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="col l-2-4 m-4 c-6">
+                                    <a href="" class="home-product-item">
+                                        <div class="home-product-item__img" style="background-image: url(https://cf.shopee.vn/file/c96b02dd2b1f9e8112b736844b8527f8_tn);"></div>
+                                        <img src="./assets/img/logo/sale.PNG" alt="" class="home-product-item__img-sale">
+                                        <h4 class="home-product-item__name">Smart UHD Tivi LG 55 inch 4K 55UP7550PTC - Model 2021 - Miễn phí lắp đặt</h4>
+                                        <div class="home-product-item__price">
+                                            <span class="home-product-item__price-old">1.890.000đ</span>
+                                            <span class="home-product-item__price-current">1.500.000đ</span>
+                                        </div>
+                                        <div class="home-product-item__action">
+                                            <span class="home-product-item__like home-product-item__like--liked">
+                                                <i class="home-product-item__like-icon-empty far fa-heart"></i>
+                                                <i class="home-product-item__like-icon-fill fas fa-heart"></i>
+                                            </span>
+
+                                            <div class="home-product-item__rating">
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                            </div>
+
+                                            <span class="home-product-item__sold">Đã bán 27</span>
+                                        </div>
+
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item__origin-name">
+                                                TP. Hồ Chí Minh
+                                            </span>
+                                        </div>
+
+                                        <div class="home-product-item__favourite">
+                                           <p>XỬ LÝ ĐƠN HÀNG </p>
+                                            <span>BỞI SHOPPEE</span>
+                                        </div>
+
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item__sale-off-percent">16%</span>
+                                            <span class="home-product-item__sale-off-label">GIẢM</span>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="col l-2-4 m-4 c-6">
+                                    <a href="" class="home-product-item">
+                                        <div class="home-product-item__img" style="background-image: url(https://cf.shopee.vn/file/c43bdf290e00e65bd70b01949dd231ee_tn);"></div>
+                                        <img src="./assets/img/logo/sale.PNG" alt="" class="home-product-item__img-sale">
+                                        <h4 class="home-product-item__name">[Mã ELLGJULY giảm 5% đơn 500K] LG Tone Free HBS-FN7 - Màu Đen - Tai Nghe Không Dây Chống ồn chủ động,diệt khuẩn UV Nano</h4>
+                                        <div class="home-product-item__price">
+                                            <span class="home-product-item__price-old">4.300.000đ</span>
+                                            <span class="home-product-item__price-current">2.200.000đ</span>
+                                        </div>
+                                        <div class="home-product-item__action">
+                                            <span class="home-product-item__like home-product-item__like--liked">
+                                                <i class="home-product-item__like-icon-empty far fa-heart"></i>
+                                                <i class="home-product-item__like-icon-fill fas fa-heart"></i>
+                                            </span>
+
+                                            <div class="home-product-item__rating">
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                            </div>
+
+                                            <span class="home-product-item__sold">Đã bán 161</span>
+                                        </div>
+
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item__origin-name">
+                                                TP. Hồ Chí Minh
+                                            </span>
+                                        </div>
+
+                                        <div class="home-product-item__favourite">
+                                           <p>XỬ LÝ ĐƠN HÀNG </p>
+                                            <span>BỞI SHOPPEE</span>
+                                        </div>
+
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item__sale-off-percent">48%</span>
+                                            <span class="home-product-item__sale-off-label">GIẢM</span>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="col l-2-4 m-4 c-6">
+                                    <a href="" class="home-product-item">
+                                        <div class="home-product-item__img" style="background-image: url(https://cf.shopee.vn/file/b416bfe37dff73d4c739e7ba8b09e2c4_tn);"></div>
+                                        <img src="./assets/img/logo/sale.PNG" alt="" class="home-product-item__img-sale">
+                                        <h4 class="home-product-item__name">[Mã ELLGJULY giảm 5% đơn 500K] Điều khiển LG AN-MR20GA Magic Remote cho Smart TV model 2020 - AKB75855501</h4>
+                                        <div class="home-product-item__price">
+                                            <span class="home-product-item__price-old">990.000đ</span>
+                                            <span class="home-product-item__price-current">399.000đ</span>
+                                        </div>
+                                        <div class="home-product-item__action">
+                                            <span class="home-product-item__like home-product-item__like--liked">
+                                                <i class="home-product-item__like-icon-empty far fa-heart"></i>
+                                                <i class="home-product-item__like-icon-fill fas fa-heart"></i>
+                                            </span>
+
+                                            <div class="home-product-item__rating">
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </div>
+
+                                            <span class="home-product-item__sold">Đã bán 56</span>
+                                        </div>
+
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item__origin-name">
+                                                TP. Hồ Chí Minh
+                                            </span>
+                                        </div>
+
+                                        <div class="home-product-item__favourite">
+                                           <p>XỬ LÝ ĐƠN HÀNG </p>
+                                            <span>BỞI SHOPPEE</span>
+                                        </div>
+
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item__sale-off-percent">60%</span>
+                                            <span class="home-product-item__sale-off-label">GIẢM</span>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                
+                            </div>
+                        </div>
+
+                        <ul class="pagination">
+                            <li class="pagination-item">
+                                <a href="" class="pagination-item__link">
+                                    <i class="pagination-item__icon">
+                                        <i class="fas fa-chevron-left"></i>
+                                    </i>
+                                </a>
+                            </li>
+
+                            <li class="pagination-item pagination-item--active">
+                                <a href="" class="pagination-item__link">1</a>
+                            </li>
+
+                            <li class="pagination-item">
+                                <a href="" class="pagination-item__link">2</a>
+                            </li>
+
+                            <li class="pagination-item">
+                                <a href="" class="pagination-item__link">
+                                    <i class="pagination-item__icon">
+                                        <i class="fas fa-chevron-right"></i>
+                                    </i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <footer class="footer">
+            <div class="grid wide ">
+                <div class="row pad">
+                    <div class="col l-2-4 m-4 c-6">
+                        <h3 class="footer__heading">CHĂM SÓC KHÁCH HÀNG</h3>
+                        <ul class="footer__list">
+                            <li class="footer__list-item">
+                                <a href="" class="footer__list-item-link">Trung Tâm Trợ Giúp</a>
+                            </li>
+
+                            <li class="footer__list-item">
+                                <a href="" class="footer__list-item-link">Shopee Blog</a>
+                            </li>
+
+                            <li class="footer__list-item">
+                                <a href="" class="footer__list-item-link">Shopee Mall</a>
+                            </li>
+
+                            <li class="footer__list-item">
+                                <a href="" class="footer__list-item-link">Hướng Dẫn Mua Hàng</a>
+                            </li>
+
+                            <li class="footer__list-item">
+                                <a href="" class="footer__list-item-link">Hướng Dẫn Bán Hàng</a>
+                            </li>
+
+                            <li class="footer__list-item">
+                                <a href="" class="footer__list-item-link">Thanh Toán</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="col l-2-4 m-4 c-6">
+                        <h3 class="footer__heading">VỀ SHOPPE</h3>
+                        <ul class="footer__list">
+                            <li class="footer__list-item">
+                                <a href="" class="footer__list-item-link">Giới Thiệu Về Shopee Việt Nam</a>
+                            </li>
+    
+                            <li class="footer__list-item">
+                                <a href="" class="footer__list-item-link">Tuyển Dụng</a>
+                            </li>
+    
+                            <li class="footer__list-item">
+                                <a href="" class="footer__list-item-link">Điều Khoản Shopee</a>
+                            </li>
+    
+                            <li class="footer__list-item">
+                                <a href="" class="footer__list-item-link">Chính Sách Bảo Mật</a>
+                            </li>
+    
+                            <li class="footer__list-item">
+                                <a href="" class="footer__list-item-link">Chính Hãng</a>
+                            </li>
+                        </ul>
+
+                    </div>
+
+                    <div class="col l-2-4 m-4 c-6">
+                        <h3 class="footer__heading">CHÍNH SÁCH</h3>
+                        <ul class="footer__list">
+                            <li class="footer__list-item">
+                                <a href="" class="footer__list-item-link">Chính Sách Bảo Mật</a>
+                            </li>
+    
+                            <li class="footer__list-item">
+                                <a href="" class="footer__list-item-link">Quy Chế Hoạt Động</a>
+                            </li>
+    
+                            <li class="footer__list-item">
+                                <a href="" class="footer__list-item-link">Chính Sách Vận Chuyển</a>
+                            </li>
+    
+                            <li class="footer__list-item">
+                                <a href="" class="footer__list-item-link">Chính Sách Trả Hàng Và Hoàn Tiền</a>
+                            </li>
+
+                            <li class="footer__list-item">
+                                <a href="" class="footer__list-item-link">Flash Sales</a>
+                            </li>
+
+                            <li class="footer__list-item">
+                                <a href="" class="footer__list-item-link">Liên Hệ Với Truyền Thông</a>
+                            </li>
+                        </ul>
+
+                    </div>
+
+                    <div class="col l-2-4 m-4 c-6">
+                        <h3 class="footer__heading">THEO DÕI CHÚNG TÔI TRÊN</h3>
+                        <ul class="footer__list">
+                            <li class="footer__list-item">
+                                <a href="" class="footer__list-item-link">
+                                    <i class="footer__list-item-social fab fa-facebook"></i>
+                                    Facebook
+                                </a>
+                            </li>
+    
+                            <li class="footer__list-item">
+                                <a href="" class="footer__list-item-link">
+                                    <i class="footer__list-item-social fab fa-instagram-square"></i>
+                                    Instagram
+                                </a>
+                            </li>
+    
+                            <li class="footer__list-item">
+                                <a href="" class="footer__list-item-link">
+                                    <i class="footer__list-item-social fab fa-linkedin"></i>
+                                    LinkedIN
+                                </a>
+                            </li>
+                        </ul>
+
+                    </div>
+
+                    <div class="col l-2-4 m-4 c-6">
+                        <h3 class="footer__heading">TẢI ỨNG DỤNG SHOPPE NGAY</h3>
+
+                        <div class="footer__download">
+                            <img src="./assets/img/qr/qr.png" alt="Dowload-qr" class="footer__download-qr">
+                            <div class="footer__dowload-apps">
+                                <img src="./assets/img/qr/google play.png" alt="Google play" class="footer__dowload-app-img">
+                                <img src="./assets/img/qr/app store.png" alt="App store" class="footer__dowload-app-img">
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="footer__bottom">
+                <div class="footer__end">
+                    <div class="footer__end-heading">
+                        <ul class="footer__end-list">
+                            <li class="footer__end-link">
+                                <a href="">CHÍNH SÁCH BẢO MẬT</a>
+                            </li>
+
+                            <li class="footer__end-link">
+                                <a href="">QUY CHẾ HOẠT ĐỘNG</a>
+                            </li>
+
+                            <li class="footer__end-link">
+                                <a href="">CHÍNH SÁCH VẬN CHUYỂN</a>
+                            </li>
+
+                            <li class="footer__end-link">
+                                <a href="">CHÍNH SÁCH TRẢ HÀNG VÀ HOÀN TIỀN</a>
+                            </li>
+                            
+                        </ul>
+                    </div>
+
+                    <div class="footer__end-check">
+                        <img src="./assets/img/logo/footer.PNG" alt="" class="footer__end-check-img">
+                    </div>
+
+                    <div class="footer__end-company">
+                        <h3 class="footer__end-company-heading">
+                            Công ty TNHH Shopee
+                        </h3>
+                        <div class="footer__end-company-address">
+                            Địa chỉ: Tầng 4-5-6, Tòa nhà Capital Place, số 29 đường Liễu Giai, Phường Ngọc Khánh, Quận Ba Đình, Thành phố Hà Nội, Việt Nam. Tổng đài hỗ trợ: 19001221 - Email: cskh@hotro.shopee.vn
+                        </div>
+                        <div class="footer__end-company-phone">
+                            Chịu Trách Nhiệm Quản Lý Nội Dung: Nguyễn Đức Trí - Điện thoại liên hệ: 024 73081221 (ext 4678)
+                        </div>
+
+                        <div class="footer__end-company-date">
+                            Mã số doanh nghiệp: 0106773786 do Sở Kế hoạch & Đầu tư TP Hà Nội cấp lần đầu ngày 10/02/2015
+                        </div>
+
+                        <div class="footer__end-company-year">
+                            © 2015 - Bản quyền thuộc về Công ty TNHH Shopee
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <!-- MODAL LAYOUT -->
+    <!-- <div class="modal">
+        <div class="modal__overlay"></div>
+        <div class="modal__body"> -->
+
+            <!-- register form -->
+            <!-- <div class="auth-form">
+                <div class="auth-form__container">
+
+                    <div class="auth-form__header">
+                        <h3 class="auth-form__heading">Đăng Ký</h3>
+                        <span class="auth-form__switch-btn">Đăng nhập</span>
+                    </div>
+
+                    <div class="auth-form__form">
+                        <div class="auth-form__group">
+                            <input type="text" class="auth-form__input" placeholder="Email của bạn">
+                        </div>
+
+                        <div class="auth-form__group">
+                            <input type="password" class="auth-form__input" placeholder="Mật khẩu của bạn">
+                        </div>
+
+                        <div class="auth-form__group">
+                            <input type="password" class="auth-form__input" placeholder="Nhập lại mật khẩu">
+                        </div>
+                    </div>
+
+                    <div class="auth-form__aside">
+                        <p class="auth-form__policy-text">
+                            Bằng việc đăng kí, bạn đã đồng ý với Shoppe về
+                            <a href="" class="auth-form__text-link"> Điều khoản dịch vụ</a> &
+                            <a href="" class="auth-form__text-link"> Chính sách bảo mật</a>
+                        </p>
+                    </div>
+
+                    <div class="auth-form__controls">
+                        <button class="btn auth-form__controls-back btn-nomal">TRỞ LẠI</button>
+                        <button class="btn btn--primary">ĐĂNG KÝ</button>
+                    </div>
+                </div>
+
+                <div class="auth-form__socials">
+                    <a href="" class="auth-form__socials--fb btn btn--size-s btn--with-icon">
+                        <i class="auth-form__socials-icon fab fa-facebook-square"></i>
+                        <span class="auth-form__social-titel">Kết nối với Facebook</span>
+                    </a>
+                    <a href="" class="auth-form__socials--gg btn btn--size-s btn--with-icon">
+                        <i class="auth-form__socials-icon fab fa-google"></i>
+                        <span class="auth-form__social-titel">Kết nối với Google</span>
+                    </a>
+                </div>
+            </div> -->
+
+             <!-- login form -->
+             <!-- <div class="auth-form">
+                <div class="auth-form__container">
+
+                    <div class="auth-form__header">
+                        <h3 class="auth-form__heading">Đăng Nhập</h3>
+                        <span class="auth-form__switch-btn">Đăng Ký</span>
+                    </div>
+
+                    <div class="auth-form__form">
+                        <div class="auth-form__group">
+                            <input type="text" class="auth-form__input" placeholder="Email của bạn">
+                        </div>
+
+                        <div class="auth-form__group">
+                            <input type="password" class="auth-form__input" placeholder="Mật khẩu của bạn">
+                        </div>
+                    </div>
+
+                    <div class="auth-form__aside">
+                        <div class="auth-form__help">
+                            <a href="" class="auth-form__help-link auth-form__help-link-foget">Quên mật khẩu</a>
+                            <span class="auth-form__help-sepatate"></span>
+                            <a href="" class="auth-form__help-link">Cần trợ giúp?</a>
+                        </div>
+                    </div>
+
+                    <div class="auth-form__controls">
+                        <button class="btn auth-form__controls-back btn-nomal">TRỞ LẠI</button>
+                        <button class="btn btn--primary">ĐĂNG NHẬP</button>
+                    </div>
+                </div>
+
+                <div class="auth-form__socials">
+                    <a href="" class="auth-form__socials--fb btn btn--size-s btn--with-icon">
+                        <i class="auth-form__socials-icon fab fa-facebook-square"></i>
+                        <span class="auth-form__social-titel">Đăng nhập với Facebook</span>
+                    </a>
+                    <a href="" class="auth-form__socials--gg btn btn--size-s btn--with-icon">
+                        <i class="auth-form__socials-icon fab fa-google"></i>
+                        <span class="auth-form__social-titel">Đăng nhập với Google</span>
+                    </a>
+                </div>
+            </div>
+
+
+
+            
+
+        </div>
+    </div> -->
+</body>
+</html>
